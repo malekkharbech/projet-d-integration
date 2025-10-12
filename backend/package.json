@@ -1,0 +1,31 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malekkharbech/projet-d-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malekkharbech/projet-d-integration/issues"
+  },
+  "homepage": "https://github.com/malekkharbech/projet-d-integration#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "sass": "^1.93.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
