@@ -9,5 +9,5 @@ const port = process.env.PORT || 3000;
 connectDB();
 
 app.listen(port, () => {
-  console.log(`Serveur démarré sur le port ${port} ,,,,,,,,,,,,,,,,,,,?`);
+  console.log(`Serveur démarré sur le port ${port} ?`);
 });
